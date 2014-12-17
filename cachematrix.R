@@ -2,9 +2,9 @@
 ## The function makeCacheMatrix creates a special matrix with 
 ## getter and setters for the matrix and matrix inverse
 ## The function cacheSolve uses the special matrix. It first
-## checks if the matrix inverse is already computed and cached.
-## If cached then it is returned, if not then the matrix inverse
-## is computed, cached and then returned
+## checks if the matrix inverse is already set (cached).
+## If set (cached) then it is returned, if not then the matrix inverse
+## is computed, set (cached) and then returned
 
 ## Function return a list of 4 functions:
 ## setMatrix   - To set the matrix
